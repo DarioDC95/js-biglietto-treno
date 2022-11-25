@@ -25,5 +25,7 @@ else {
 
 // setto il massimo di due decimali
 let adjusted_prize_ticket = prize_ticket.toFixed(2);
-
 console.log(adjusted_prize_ticket);
+
+// Diamo il risultato all'HTML
+document.getElementById("ticket_prize").innerHTML = " " + adjusted_prize_ticket;
